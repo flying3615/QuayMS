@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="demo.TestSpec" tests="1" skipped="0" failures="1" errors="0" timestamp="2015-07-08T02:02:09" hostname="gabriel-Inspiron-5437" time="3.063">
+  <properties/>
+  <testcase name="test something" classname="demo.TestSpec" time="3.063">
+    <failure message="Condition not satisfied:&#10;&#10;true == false&#10;     |&#10;     false&#10;" type="org.spockframework.runtime.SpockComparisonFailure">Condition not satisfied:
+
+true == false
+     |
+     false
+
+	at demo.TestSpec.test something(TestSpec.groovy:20)
+</failure>
+  </testcase>
+  <system-out><![CDATA[INFO org.springframework.web.context.support.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1e7c43c0: startup date [Wed Jul 08 10:02:09 CST 2015]; root of context hierarchy
+INFO org.springframework.web.context.support.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@1e7c43c0: startup date [Wed Jul 08 10:02:09 CST 2015]; root of context hierarchy
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
